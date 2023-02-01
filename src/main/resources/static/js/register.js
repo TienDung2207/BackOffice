@@ -116,7 +116,7 @@ $(document).ready(function() {
                     if(rspCode !== "00") {
                         $('#position-error').text(data.responseJSON.rspMessage)
                     }
-                    console.log("error!")
+                    console.log("fail!")
                 }
             })
         }

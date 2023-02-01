@@ -272,15 +272,10 @@ $(document).ready(function () {
                         }
                     }
                 }
-
-                // changeActivePageNumber()
-                // changAllRowsTable()
             },
             error: (data) => {
             }
         })
-        // changeActivePageNumber()
-        // changAllRowsTable()
     })
 
 

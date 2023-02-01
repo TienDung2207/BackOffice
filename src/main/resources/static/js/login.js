@@ -19,7 +19,4 @@ $(document).ready(function() {
         $('.password').val(CryptoJS.MD5(passValue).toString())
 
     })
-
-    console.log("TEST")
-    console.log("TEST2")
 })
