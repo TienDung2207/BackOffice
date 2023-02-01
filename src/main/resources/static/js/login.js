@@ -21,4 +21,5 @@ $(document).ready(function() {
     })
 
     console.log("TEST")
+    console.log("TEST2")
 })
