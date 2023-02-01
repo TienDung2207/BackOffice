@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Permissions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="../static/css/update-role.css" th:href="@{/css/update-role.css}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/main.js" th:src="@{/js/main.js}"></script>
+    <script type="text/javascript" src="/js/update-role.js" th:src="@{/js/update-role.js}"></script>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="header__logo">
+            <img src="../static/img/logo-primary.55e9c8c.svg" th:src="@{/img/logo-primary.55e9c8c.svg}" alt="">
+        </div>
+        <div class="header__navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <i class="fas fa-bell" style="color: blue"></i>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="navbar-item navbar-item-user">
+                    <i class="fas fa-user"></i>
+                    <div style="display: inline-block" class="myUsername" sec:authentication="name"></div>
+                    <i class="fas fa-chevron-down" style="font-size: 10px"></i>
+                    <ul class="navbar-user-menu">
+                        <li>
+                            <a href="#"
+                               style="text-decoration: none; color: #333; display: inline-block" class="myUsername"
+                               sec:authentication="name"></a>
+                        </li>
+                        <li style="border-top: none">
+                            <a th:href="@{'/logout'}"
+                               style="text-decoration: none; color: #333; display: inline-block; width: 100%">
+                                <i class="fas fa-power-off"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main__container">
+        <div class="main__container-menu">
+            <div class="menu-list">
+                <!--                START -->
+                <th:block th:each="action : ${actionsByRole}">
+                    <div class="menu-item">
+                        <div class="menu-item-wrap">
+                            <div>
+                                <i class=""></i>
+                                <span th:text="${action.actionName}"></span>
+                            </div>
+                            <div th:if="${action.actionName != 'Màn hình chính'}">
+                                <i class="fas fa-chevron-up up"></i>
+                                <i class="fas fa-chevron-down down"></i>
+                            </div>
+                        </div>
+
+                        <div class="sub-menu-list">
+                            <span class="vertical"></span>
+                            <div class="sub-menu-item" th:if="${action.data != null}" th:each="child : ${action.data}">
+                                <div class="sub-menu-item-wrap">
+                                    <div>
+                                        <span></span>
+                                        <span>[[${child.actionName}]]</span>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-chevron-up up"></i>
+                                        <i class="fas fa-chevron-down down"></i>
+                                    </div>
+                                </div>
+                                <div class="sub-menu-3" th:if="${child.data != null}" th:each="child2 : ${child.data}">
+                                    <a>
+                                        <i class="fas fa-caret-right"></i>
+                                        <span>[[${child2.actionName}]]</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </th:block>
+
+                <!--                END -->
+            </div>
+        </div>
+
+        <!--        =======================================================================================================-->
+
+        <div class="main__container-content">
+            <div class="main__content-header">
+                <p class="main__content-header-title">Cập nhật nhóm quyền</p>
+            </div>
+            <div class="line"></div>
+
+            <div class="main__container-body">
+                <div class="main_container-body-content">
+                    <div class="wrap">
+                        <span>Tên nhóm quyền</span>
+<!--                        <input type="text" class="roleName" th:value="${roleName}">-->
+                        <select name="" class="roleName">
+                            <option th:each="role : ${allRole}" th:text="${role.roleName}" th:value="${role.roleName}"></option>
+                        </select>
+                    </div>
+                    <div class="wrap">
+                        <span>Mô tả</span>
+                        <input type="text" class="roleDesc" th:value="${roleDesc}" disabled>
+                    </div>
+                    <div class="wrap">
+                        <span>Phân quyền</span>
+                        <div class="tabs-wrap">
+                            <!--                            th:text="${action.actionName}"-->
+                            <div class="tabs">
+                                <th:block th:each="action : ${actionsNoParent}">
+                                    <div class="tab-item" th:text="${action.actionName}"></div>
+                                </th:block>
+                            </div>
+
+                            <div class="tab-content">
+                                <th:block th:each="action : ${actionsNoParent}">
+                                    <div class="permission-list">
+                                        <th:block th:if="${action.data != null}" th:each="child : ${action.data}">
+                                            <div class="permission-item">
+                                                <div class="permission-item-wrap">
+                                                    <i class="fas fa-caret-right"></i>
+                                                    <div class="box">
+                                                        <i class="fas fa-check"></i>
+                                                    </div>
+                                                    <span th:text="${child.actionName}"></span>
+                                                </div>
+
+                                                <th:block th:if="${child.data != null}"
+                                                          th:each="child2 : ${child.data}">
+                                                    <div class="permission-item-child">
+                                                        <div class="box">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                        <span th:text="${child2.actionName}"></span>
+                                                    </div>
+                                                </th:block>
+                                            </div>
+                                        </th:block>
+                                    </div>
+                                </th:block>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p id="update">Cập nhật</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        $('.roleName > option').each((index, element) => {
+            if ($(element).text() === [[${roleName}]]) {
+                $(element).attr("selected", "true")
+            }
+        })
+
+        $('.tabs .tab-item').css("width", 100 / [[${actionsNoParent}]].length + "%")
+        $('.tabs .tab-item:first-child').addClass("active")
+        $('.tab-content .permission-list:first-child').addClass("active")
+
+        let actionsByRoleUpdate = [[${actionsByRoleUpdate}]]
+        let actionsByRole = [[${actionsByRole}]]
+        for (let action of actionsByRole) {
+            if (action.data !== null) {
+                for (let child of action.data) {
+                    if (child.data === null) {
+                        $('.sub-menu-item-wrap div:first-child span:last-child').each((index, element) => {
+                            if ($(element).text() === child.actionName) {
+                                $(element).closest('.sub-menu-item-wrap').children('div:last-child').remove()
+                            }
+                        })
+                    }
+                }
+            }
+        }
+
+        let removeAllowPermissions = () => {
+            $('.permission-list').each((index, element) => {
+                $(element).find('.box').removeClass('active')
+            })
+        }
+
+        let showAllowPermissions = (data) => {
+            $('.permission-list').each((index, element) => {
+                $.each(data, (key, value) => {
+                    if ($($(' .tab-item')[index]).text() === value.actionName) {
+                        if (value.data !== null) {
+                            $(element).find('.permission-item-wrap span').each((index2, element2) => {
+                                $.each(value.data, (key2, value2) => {
+                                    if ($(element2).text() === value2.actionName) {
+                                        $(element2).closest('.permission-item-wrap').children('.box').addClass('active')
+
+                                        if (value2.data !== null) {
+                                            $(element2).closest('.permission-item').find('.permission-item-child span').each((index3, element3) => {
+                                                $.each(value2.data, (key3, value3) => {
+                                                    if ($(element3).text() === value3.actionName) {
+                                                        $(element3).closest('.permission-item-child').children('.box').addClass('active')
+                                                    }
+                                                })
+                                            })
+                                        }
+                                    }
+                                })
+                            })
+                        }
+                    }
+
+                })
+            })
+        }
+        showAllowPermissions(actionsByRoleUpdate)
+
+        // change permission
+        let permissions = $('.permission-list')
+        $('.tab-item').each((index, tab) => {
+            $(tab).on("click", function () {
+                let permission = permissions[index]
+                $('.tab-item.active').removeClass("active")
+                $('.permission-list.active').removeClass("active")
+
+                $(this).addClass("active")
+                $(permission).addClass("active")
+            })
+        })
+
+        // start add class 'active' when click to box
+        $('.box').each((index, boxE) => {
+            $(boxE).on("click", () => {
+                if ($(boxE).hasClass("active")) {
+                    $(boxE).removeClass("active")
+                    if ($(boxE).closest('.permission-item-child').length !== 0) {
+                        if ($(boxE).closest('.permission-item').children('.permission-item-wrap').children('.box').hasClass('active')) {
+                            if (!$(boxE).closest('.permission-item').find('.permission-item-child').children('.box').hasClass('active')) {
+                                $(boxE).closest('.permission-item').children('.permission-item-wrap').children('.box').removeClass('active')
+                            }
+                        }
+                    }
+                    if ($(boxE).closest('.permission-item-wrap').length !== 0) {
+                        $(boxE).closest('.permission-item').find('.permission-item-child').children('.box').removeClass('active')
+                    }
+                } else {
+                    $(boxE).addClass("active")
+                    if ($(boxE).closest('.permission-item-child').length !== 0) {
+                        if ($(boxE).closest('.permission-item')) {
+                            if (!$(boxE).closest('.permission-item').children('.permission-item-wrap').children('.box').hasClass('active')) {
+                                $(boxE).closest('.permission-item').children('.permission-item-wrap').children('.box').addClass('active')
+                            }
+                        }
+                    }
+                }
+            })
+        })
+        // end add
+
+        //Start get data to update
+        let getData = () => {
+            let roleName = $('.roleName').val().trim()
+            let postData = {
+                roleName: roleName,
+                data: []
+            }
+
+            let count = 0
+            $('.tab-item').each((index, element) => {
+                let permissionListEle = $($('.permission-list')[index])
+                if (permissionListEle.find('.box').hasClass('active')) {
+                    postData.data.push({
+                        actionName: $(element).text(),
+                        data: []
+                    })
+                    count++
+
+                    let count2 = 0
+                    permissionListEle.find('.permission-item-wrap').each((index2, element2) => {
+                        if ($(element2).children('.box').hasClass('active')) {
+                            postData.data[count - 1].data.push({
+                                actionName: $(element2).children('span').text(),
+                                data: []
+                            })
+                            count2++
+
+                            if ($(element2).closest('.permission-item').find('.permission-item-child')) {
+                                $(element2).closest('.permission-item').find('.permission-item-child').each((index3, element3) => {
+                                    if ($(element3).children('.box').hasClass('active')) {
+                                        postData.data[count - 1].data[count2 - 1].data.push({
+                                            actionName: $(element3).children('span').text(),
+                                            data: []
+                                        })
+                                    }
+                                })
+                            }
+                        }
+                    })
+                } else if ($(element).text() === 'Màn hình chính') {
+                    postData.data.push({
+                        actionName: $(element).text(),
+                        data: []
+                    })
+                    count++
+                }
+            })
+            return postData
+        }
+
+        //change permission when change input and press enter
+        $('.roleName').on('change', (event) => {
+            let optionValue = $('.roleName').val()
+            $('.roleDesc').val("ROLE_" + optionValue.toUpperCase())
+            let url = "/system/role?roleName=" + optionValue
+            $.get(url)
+                .done((response) => {
+                    if (response.rspCode === '00') {
+                        removeAllowPermissions()
+                        showAllowPermissions(response.data)
+                    }
+                })
+                .fail((response) => {
+                })
+        })
+
+        //Start update
+        $('#update').on("click", () => {
+            let postData = getData()
+
+            $.ajax({
+                type: "POST",
+                url: "/system/role/update",
+                contentType: "application/json; charset-utf-8",
+                dataType: "json",
+                data: JSON.stringify(postData),
+                success: (data) => {
+                    if (data.rspCode === '00') {
+                        alert(data.rspMessage)
+                        // location.reload()
+                    }
+                },
+                error: (data) => {
+                    console.log("error")
+                }
+            })
+        })
+    })
+</script>
+</body>
+</html>

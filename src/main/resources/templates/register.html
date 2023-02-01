@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/register.css" th:href="@{/css/register.css}">
+    <title>Register</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+    <script src="/js/register.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div id="signup">
+        <div class="header">
+            <h3>Register</h3>
+        </div>
+
+        <div class="sep"></div>
+
+        <form class="inputs">
+            <input type="text" placeholder="Full name" autofocus class="fullName"/>
+            <p id="fullName-error" class="error-msg"></p>
+
+            <input type="text" placeholder="Email" class="email"/>
+            <p id="email-error" class="error-msg"></p>
+
+            <input type="text" placeholder="username" class="userName"/>
+            <p id="username-error" class="error-msg"></p>
+
+            <input type="password" placeholder="Password" class="password"/>
+            <p id="pass-error" class="error-msg"></p>
+
+            <input type="password" placeholder="Confirm password" class="conf_pass"/>
+            <p id="conf_pass-error" class="error-msg"></p>
+
+            <select name="access" id="position">
+                <option class="option" value="">-----Role-----</option>
+                <option th:each="roleName : ${roleNames}" th:text="${roleName}" th:value="${roleName}"></option>
+            </select>
+            <p id="position-error" class="error-msg"></p>
+
+            <div class="checkbox" >
+                <input name="showPass" id="show_pass" type="checkbox" />
+                <label class="terms" for="show_pass">Show Password</label>
+            </div>
+            <button type="submit" id="submit" >Create my account</button>
+            <p class="action-link">Have already an account?
+                <a class="login-link" th:href="@{'/login'}">Log in</a>
+            </p>
+        </form>
+
+    </div>
+
+</div>
+</body>
+</html>

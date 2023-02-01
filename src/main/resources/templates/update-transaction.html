@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>Update Transaction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="../static/css/update-transaction.css" th:href="@{/css/update-transaction.css}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/main.js" th:src="@{/js/main.js}"></script>
+    <script type="text/javascript" src="/js/update-transaction.js" th:src="@{/js/update-transaction.js}"></script>
+</head>
+<body>
+
+<div class="main">
+    <div class="header">
+        <div class="header__logo">
+            <img src="../static/img/logo-primary.55e9c8c.svg" th:src="@{/img/logo-primary.55e9c8c.svg}" alt="">
+        </div>
+        <div class="header__navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <i class="fas fa-bell" style="color: blue"></i>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="navbar-item navbar-item-user">
+                    <i class="fas fa-user"></i>
+                    <div style="display: inline-block" class="myUsername" sec:authentication="name"></div>
+                    <i class="fas fa-chevron-down" style="font-size: 10px"></i>
+                    <ul class="navbar-user-menu">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=pa5S2C85rRM"
+                               style="text-decoration: none; color: #333; display: inline-block" sec:authentication="name"></a>
+                        </li>
+                        <li style="border-top: none">
+                            <a th:href="@{'/logout'}" style="text-decoration: none; color: #333; display: inline-block; width: 100%" >
+                                <i class="fas fa-power-off"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main__container">
+        <div class="main__container-menu">
+            <div class="menu-list">
+                <!--                START -->
+                <th:block th:each="action : ${actionsByRole}">
+                    <div class="menu-item">
+                        <div class="menu-item-wrap">
+                            <div>
+                                <i class=""></i>
+                                <span th:text="${action.actionName}"></span>
+                            </div>
+                            <div th:if="${action.actionName != 'Màn hình chính'}">
+                                <i class="fas fa-chevron-up up"></i>
+                                <i class="fas fa-chevron-down down"></i>
+                            </div>
+                        </div>
+
+                        <div class="sub-menu-list">
+                            <span class="vertical"></span>
+                            <div class="sub-menu-item" th:if="${action.data != null}" th:each="child : ${action.data}">
+                                <div class="sub-menu-item-wrap">
+                                    <div>
+                                        <span></span>
+                                        <span>[[${child.actionName}]]</span>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-chevron-up up"></i>
+                                        <i class="fas fa-chevron-down down"></i>
+                                    </div>
+                                </div>
+                                <div class="sub-menu-3" th:if="${child.data != null}"  th:each="child2 : ${child.data}">
+                                    <a>
+                                        <i class="fas fa-caret-right"></i>
+                                        <span>[[${child2.actionName}]]</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </th:block>
+
+                <!--                END -->
+            </div>
+        </div>
+
+        <!--        =======================================================================================================-->
+
+        <div class="main__container-content">
+            <div class="main__content-header">
+                <p class="main__content-header-title">Cập nhật giao dịch</p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="main__container-body">
+                <div class="alert">
+                    <i class="fas fa-check-circle" id="icon-success"></i>
+                    <i class="fas fa-exclamation-circle" id="icon-error"></i>
+                    <span></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Id:</label>
+                    <input type="text" class="" id="id" placeholder="" disabled th:value="${payment.payId}">
+                </div>
+
+                <div class="form-group">
+                    <label>Amount:</label>
+                    <input type="text" class="" id="amount" placeholder="" disabled th:value="${payment.amount}">
+                </div>
+
+                <div class="form-group">
+                    <label>Ip Address:</label>
+                    <input type="text" class="" id="ipAddress" placeholder="" disabled th:value="${payment.ipAddress}">
+                </div>
+
+                <div class="form-group">
+                    <label>Pay Date:</label>
+                    <input type="text" class="" id="payDate" placeholder="" disabled th:value="${payment.payDate}">
+                </div>
+
+                <div class="form-group">
+                    <label>Info:</label>
+                    <input type="text" class="" id="info" placeholder="" disabled th:value="${payment.orderInfo}">
+                </div>
+
+                <div class="form-group">
+                    <label>Status:</label>
+                    <input type="text" class="" id="status" placeholder="Status" th:value="${payment.status}">
+                </div>
+                <p id="btn-update">Update</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        console.log("Start!")
+        let actionsByRole = [[${actionsByRole}]]
+        for(let action of actionsByRole) {
+            if(action.data !== null) {
+                for(let child of action.data) {
+                    if(child.data === null) {
+                        $('.sub-menu-item-wrap div:first-child span:last-child').each((index, element) => {
+                            if($(element).text() === child.actionName) {
+                                $(element).closest('.sub-menu-item-wrap').children('div:last-child').remove()
+                            }
+                        })
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

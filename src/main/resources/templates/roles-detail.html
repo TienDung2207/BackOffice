@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>Roles Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="../static/css/acount-detail.css" th:href="@{/css/acount-detail.css}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+    <script type="text/javascript" src="/js/main.js" th:src="@{/js/main.js}"></script>
+    <script type="text/javascript" src="/js/roles-detail.js.js" th:src="@{/js/roles-detail.js}"></script>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="header__logo">
+            <img src="../static/img/logo-primary.55e9c8c.svg" th:src="@{/img/logo-primary.55e9c8c.svg}" alt="">
+        </div>
+        <div class="header__navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <i class="fas fa-bell" style="color: blue"></i>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="navbar-item navbar-item-user">
+                    <i class="fas fa-user"></i>
+                    <div style="display: inline-block" class="myUsername" sec:authentication="name"></div>
+                    <i class="fas fa-chevron-down" style="font-size: 10px"></i>
+                    <ul class="navbar-user-menu">
+                        <li>
+                            <a href="#"
+                               style="text-decoration: none; color: #333; display: inline-block" sec:authentication="name"></a>
+                        </li>
+                        <li style="border-top: none">
+                            <a th:href="@{'/logout'}" style="text-decoration: none; color: #333; display: inline-block; width: 100%" >
+                                <i class="fas fa-power-off"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main__container">
+        <div class="main__container-menu">
+            <div class="menu-list">
+                <!--                START -->
+                <th:block th:each="action : ${actionsByRole}">
+                    <div class="menu-item">
+                        <div class="menu-item-wrap">
+                            <div>
+                                <i class=""></i>
+                                <span th:text="${action.actionName}"></span>
+                            </div>
+                            <div th:if="${action.actionName != 'Màn hình chính'}">
+                                <i class="fas fa-chevron-up up"></i>
+                                <i class="fas fa-chevron-down down"></i>
+                            </div>
+                        </div>
+
+                        <div class="sub-menu-list">
+                            <span class="vertical"></span>
+                            <div class="sub-menu-item" th:if="${action.data != null}" th:each="child : ${action.data}">
+                                <div class="sub-menu-item-wrap">
+                                    <div>
+                                        <span></span>
+                                        <span>[[${child.actionName}]]</span>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-chevron-up up"></i>
+                                        <i class="fas fa-chevron-down down"></i>
+                                    </div>
+                                </div>
+                                <div class="sub-menu-3" th:if="${child.data != null}"  th:each="child2 : ${child.data}">
+                                    <a>
+                                        <i class="fas fa-caret-right"></i>
+                                        <span>[[${child2.actionName}]]</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </th:block>
+
+                <!--                END -->
+            </div>
+        </div>
+
+        <!--        =======================================================================================================-->
+
+        <div class="main__container-content">
+            <div class="main__content-header">
+                <p class="main__content-header-title">Chi tiết nhóm quyền</p>
+                <span id="add_role">
+                    Thêm mới
+                    <i class="fas fa-chevron-down down"></i>
+                </span>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="main__container-body">
+                <div class="main_container-body-search">
+                    <div class="form-group">
+                        <label for="role_name">Tên nhóm quyền:</label>
+                        <input type="text" name="" id="role_name" placeholder="Tên nhóm quyền">
+                    </div>
+                    <div class="form-group">
+                        <label for="role_desc">Mô tả:</label>
+                        <input type="text" name="" id="role_desc" placeholder="Mô tả">
+                    </div>
+                    <div class="form-group">
+                        <div class="btn-search" >
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            Tìm kiếm
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên nhóm quyền</th>
+                            <th>Mô tả</th>
+                            <th>Thêm</th>
+                        </tr>
+                        <tr th:each="role, state : ${roles}">
+                            <td>[[${state.count}]]</td>
+                            <td class="name">[[${role.roleName}]]</td>
+                            <td>[[${role.roleDesc}]]</td><td>
+                            <i class="fas fa-edit update_role"></i>
+                        </td>
+                        </tr>
+                    </table>
+
+                    <div class="pagination">
+                        <span th:if="${totalPages == 0}" class="page_number page_current">1</span>
+                        <span th:if="${totalItems != 0}" th:each="i : ${#numbers.sequence(1, totalPages)}">
+                            <span th:if="${currentPage != i}" class="page_number">[[${i}]]</span>
+                            <span th:if="${currentPage == i}" class="page_number page_current">[[${i}]]</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        console.log([[${users}]])
+
+        console.log("Start!")
+        let actionsByRole = [[${actionsByRole}]]
+        for(let action of actionsByRole) {
+            if(action.data !== null) {
+                for(let child of action.data) {
+                    if(child.data === null) {
+                        $('.sub-menu-item-wrap div:first-child span:last-child').each((index, element) => {
+                            if($(element).text() === child.actionName) {
+                                $(element).closest('.sub-menu-item-wrap').children('div:last-child').remove()
+                            }
+                        })
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="../static/css/acount-detail.css" th:href="@{/css/acount-detail.css}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+    <script type="text/javascript" src="/js/main.js" th:src="@{/js/main.js}"></script>
+    <script type="text/javascript" src="/js/account-detail.js" th:src="@{/js/account-detail.js}"></script>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="header__logo">
+            <img src="../static/img/logo-primary.55e9c8c.svg" th:src="@{/img/logo-primary.55e9c8c.svg}" alt="">
+        </div>
+        <div class="header__navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <i class="fas fa-bell" style="color: blue"></i>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="navbar-item navbar-item-user">
+                    <i class="fas fa-user"></i>
+                    <div style="display: inline-block" class="myUsername" sec:authentication="name"></div>
+                    <i class="fas fa-chevron-down" style="font-size: 10px"></i>
+                    <ul class="navbar-user-menu">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=pa5S2C85rRM"
+                               style="text-decoration: none; color: #333; display: inline-block" sec:authentication="name"></a>
+                        </li>
+                        <li style="border-top: none">
+                            <a th:href="@{'/logout'}" style="text-decoration: none; color: #333; display: inline-block; width: 100%" >
+                                <i class="fas fa-power-off"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main__container">
+        <div class="main__container-menu">
+            <div class="menu-list">
+                <!--                START -->
+                <th:block th:each="action : ${actionsByRole}">
+                    <div class="menu-item">
+                        <div class="menu-item-wrap">
+                            <div>
+                                <i class=""></i>
+                                <span th:text="${action.actionName}"></span>
+                            </div>
+                            <div th:if="${action.actionName != 'Màn hình chính'}">
+                                <i class="fas fa-chevron-up up"></i>
+                                <i class="fas fa-chevron-down down"></i>
+                            </div>
+                        </div>
+
+                        <div class="sub-menu-list">
+                            <span class="vertical"></span>
+                            <div class="sub-menu-item" th:if="${action.data != null}" th:each="child : ${action.data}">
+                                <div class="sub-menu-item-wrap">
+                                    <div>
+                                        <span></span>
+                                        <span>[[${child.actionName}]]</span>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-chevron-up up"></i>
+                                        <i class="fas fa-chevron-down down"></i>
+                                    </div>
+                                </div>
+                                <div class="sub-menu-3" th:if="${child.data != null}"  th:each="child2 : ${child.data}">
+                                    <a>
+                                        <i class="fas fa-caret-right"></i>
+                                        <span>[[${child2.actionName}]]</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </th:block>
+
+                <!--                END -->
+            </div>
+        </div>
+
+        <!--        =======================================================================================================-->
+
+        <div class="main__container-content">
+            <div class="main__content-header">
+                <p class="main__content-header-title">Chi tiết tài khoản</p>
+                <span id="add_account">
+                    Thêm mới
+                    <i class="fas fa-chevron-down down"></i>
+                </span>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="main__container-body">
+                <div class="main_container-body-search">
+                    <div class="form-group">
+                        <label for="username">Tên đăng nhập:</label>
+                        <input type="text" name="" id="username" placeholder="Tên đăng nhập">
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Phân quyền:</label>
+                        <select name="" id="role">
+                            <option value="">Tất cả</option>
+                            <option th:each="role : ${allRole}" th:text="${role.roleName}" th:value="${role.roleName}"></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" name="" id="email" placeholder="Địa chỉ Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Trạng thái:</label>
+                        <select name="" id="status">
+                            <!--                            <option th:each="key: ${mapStatus.keySet()}" th:id="${key}" th:value="${key}" th:text="${mapStatus.get(key)}"></option>-->
+                            <option id="" value="">Tất cả</option>
+                            <option value="1">Không hoạt động</option>
+                            <option value="0">Hoạt động</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="btn-search" >
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            Tìm kiếm
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-wrap">
+                    <div class="dataTables_length">
+                        <label>
+                            Show
+                            <select class="table_length" name="table_length">
+                                <option value="3">3</option>
+                                <option value="5" selected="selected">5</option>
+                                <option value="8">8</option>
+                            </select>
+                            entries
+                        </label>
+                    </div>
+                    <table>
+                        <tr>
+                            <th style="width: 60px">STT</th>
+                            <th style="width: 140px">Tên đăng nhập</th>
+                            <th style="width: 200px">Họ tên</th>
+                            <th style="width: 180px">Email</th>
+                            <th style="width: 100px">Phân quyền</th>
+                            <th>Trang thái</th>
+                            <th>Thêm</th>
+                        </tr>
+                        <tr th:each="user, state : ${users}">
+                            <td style="width: 60px">[[${state.count}]]</td>
+                            <td style="width: 140px" class="name">[[${user.username}]]</td>
+                            <td style="width: 200px">[[${user.fullName}]]</td>
+                            <td style="width: 180px">[[${user.email}]]</td>
+                            <td style="width: 100px">[[${user.roleName}]]</td>
+                            <td th:if="${user.status == 0}" class="status" th:classappend="${user.status == 0} ? user_active : user_lock" th:text="Active"></td>
+                            <td th:unless="${user.status == 0}" class="status" th:classappend="${user.status == 0} ? user_active : user_lock" th:text="Lock"></td>
+                            <td>
+                                <i class="fas fa-edit update_account"></i>
+                                <i th:if="${user.status == 0}" class="fa fa-ban lock"  aria-hidden="true"></i>
+                                <i class="fas fa-share reset"></i>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="pagination">
+                        <span th:if="${totalPages == 0}" class="page_number page_current">1</span>
+                        <th:block th:if="${totalItems != 0}" th:each="i : ${#numbers.sequence(1, totalPages)}">
+                            <span th:if="${currentPage != i}" class="page_number">[[${i}]]</span>
+                            <span th:if="${currentPage == i}" class="page_number page_current">[[${i}]]</span>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__container">
+            <div class="modal__menu">
+                <div class="menu-title active">Thông tin chi tiết</div>
+<!--                <div class="menu-title">Mật khẩu</div>-->
+                <div class="menu-title">Cập nhật</div>
+            </div>
+            <div class="modal__content">
+                <div class="menu-content active">
+                    <div class="alert">
+                        <i class="fas fa-check-circle"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="modal_form-group">
+                        <label>Username:</label>
+                        <input type="text" class="" id="modal_username" placeholder="Username" disabled>
+                    </div>
+
+                    <div class="modal_form-group">
+                        <label>Email:</label>
+                        <input type="text" class="" id="modal_email" placeholder="Email">
+                    </div>
+
+                    <div class="modal_form-group">
+                        <label>Full-Name:</label>
+                        <input type="text" class="" id="modal_fullName" placeholder="Full-Name">
+                    </div>
+
+                    <div class="modal_form-group">
+                        <label>Role:</label>
+                        <select name="" id="modal_role">
+                            <option th:each="role : ${allRole}" th:text="${role.roleName}" th:value="${role.roleName}"></option>
+                        </select>
+                        <p id="modal_position-error" class="error-msg"></p>
+                    </div>
+
+                    <div class="modal_form-group">
+                        <label>New Password:</label>
+                        <input type="password" class="" id="modal_password" placeholder="Password">
+                    </div>
+                    <div class="modal_form-group">
+                        <label>Confirm Password:</label>
+                        <input type="password" class="" id="modal_confirm_password" placeholder="Confirm Password">
+                        <p id="modal_conf_pass-error" class="error-msg"></p>
+                    </div>
+                    <p id="modal_btn-update">Update</p>
+                </div>
+
+<!--                <div class="menu-content">-->
+<!--                    DO SOMETHING ...... < ĐỔI LẠI MẬT KHẨU CHO NGƯỜI DÙNG  >-->
+<!--                </div>-->
+
+                <div class="menu-content">
+                    <span>........</span>
+                    <p class="unlock">Unlock</p>
+                </div>
+            </div>
+            <div class="modal-btn--close">
+                <p class="btn-close">Close</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        console.log([[${users}]])
+
+        console.log("Start!")
+        let actionsByRole = [[${actionsByRole}]]
+        for(let action of actionsByRole) {
+            if(action.data !== null) {
+                for(let child of action.data) {
+                    if(child.data === null) {
+                        $('.sub-menu-item-wrap div:first-child span:last-child').each((index, element) => {
+                            if($(element).text() === child.actionName) {
+                                $(element).closest('.sub-menu-item-wrap').children('div:last-child').remove()
+                            }
+                        })
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

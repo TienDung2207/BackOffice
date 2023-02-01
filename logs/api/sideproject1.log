@@ -1,0 +1,1141 @@
+2023-01-31 10:34:18,816 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 14648 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 10:34:18,818 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 10:34:18,819 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 10:34:22,282 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 10:34:22,283 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,283 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,285 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 10:34:22,285 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,286 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,288 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:34:22,288 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,288 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,290 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 10:34:22,290 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,290 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,292 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 10:34:22,294 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,294 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,295 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:34:22,295 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,296 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,297 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 10:34:22,298 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,298 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,299 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 10:34:22,300 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,300 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,302 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 10:34:22,302 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,302 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,304 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 10:34:22,304 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,304 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,306 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 10:34:22,306 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,307 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,309 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:34:22,309 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,309 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,310 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:34:22,310 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,310 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,312 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:34:22,312 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,312 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,314 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:34:22,314 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,314 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,317 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 10:34:22,317 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:34:22,317 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,318 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 10:34:22,319 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,319 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,320 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:34:22,320 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,320 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,322 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:34:22,322 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,322 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,324 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 10:34:22,324 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,324 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,326 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 10:34:22,326 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:34:22,326 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:34:22,930 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 4.601 seconds (JVM running for 5.513)
+2023-01-31 10:49:23,343 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 8780 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 10:49:23,348 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 10:49:23,349 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 10:49:28,176 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 10:49:28,176 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,176 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,178 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 10:49:28,179 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,179 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,180 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:49:28,181 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,181 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,185 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 10:49:28,186 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,186 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,189 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 10:49:28,189 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,190 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,192 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:49:28,192 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,192 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,194 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 10:49:28,194 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,194 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,196 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 10:49:28,196 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,197 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,198 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 10:49:28,199 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,200 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,203 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 10:49:28,204 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,204 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,206 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 10:49:28,206 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,206 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,208 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:49:28,208 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,208 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,210 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:49:28,210 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,210 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,211 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:49:28,211 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,211 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,213 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:49:28,213 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,213 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,215 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 10:49:28,215 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:49:28,216 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,219 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 10:49:28,219 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,219 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,221 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:49:28,221 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,222 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,223 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:49:28,223 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,224 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,225 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 10:49:28,225 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,225 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:28,227 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 10:49:28,227 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER', 'ROLE_DEMO'
+2023-01-31 10:49:28,227 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:49:29,159 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 6.355 seconds (JVM running for 7.155)
+2023-01-31 10:52:41,476 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 6028 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 10:52:41,480 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 10:52:41,481 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 10:52:45,235 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 10:52:45,236 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,236 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,237 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 10:52:45,238 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,238 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,240 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:52:45,240 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,240 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,242 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 10:52:45,242 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,242 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,244 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 10:52:45,245 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,245 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,247 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 10:52:45,247 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,247 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,249 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 10:52:45,249 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,249 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,250 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 10:52:45,250 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,251 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,252 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 10:52:45,252 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,252 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,253 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 10:52:45,254 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,254 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,255 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 10:52:45,255 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,256 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,257 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:52:45,257 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,257 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,258 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:52:45,258 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,258 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,259 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 10:52:45,260 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,260 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,261 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 10:52:45,261 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,261 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,263 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 10:52:45,263 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 10:52:45,263 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,265 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 10:52:45,265 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,265 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,266 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:52:45,267 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,267 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,268 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 10:52:45,268 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,268 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,269 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 10:52:45,270 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,270 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,271 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 10:52:45,271 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 10:52:45,271 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 10:52:45,863 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 4.835 seconds (JVM running for 5.862)
+2023-01-31 10:55:53,756 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-4] UserName: admin2
+2023-01-31 10:55:54,189 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-4] ROLE_ADMIN
+2023-01-31 10:55:54,221 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 10:55:58,303 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 10:56:01,042 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 10:57:13,883 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 10:59:09,596 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 10:59:11,898 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 10:59:12,840 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 10:59:15,427 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 10:59:16,512 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 11:12:07,281 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-6] UserName: user1
+2023-01-31 11:12:07,341 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-6] ROLE_USER
+2023-01-31 11:12:07,359 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_USER
+2023-01-31 11:12:09,756 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_USER
+2023-01-31 11:12:13,745 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_USER
+2023-01-31 11:12:16,567 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-3] role:ROLE_USER
+2023-01-31 11:12:22,526 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_USER
+2023-01-31 11:12:43,153 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-9] UserName: admin2
+2023-01-31 11:12:43,162 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-9] ROLE_ADMIN
+2023-01-31 11:12:43,170 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 11:12:46,507 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 13:24:42,630 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 11292 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 13:24:42,632 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 13:24:42,634 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 13:24:46,670 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 13:24:46,670 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,670 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,672 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 13:24:46,672 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,672 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,674 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 13:24:46,674 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,674 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,676 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 13:24:46,676 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,676 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,677 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 13:24:46,678 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,678 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,679 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 13:24:46,680 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,680 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,681 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 13:24:46,681 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,682 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,683 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 13:24:46,684 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,684 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,685 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 13:24:46,685 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,685 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,687 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 13:24:46,687 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,687 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,688 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 13:24:46,689 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,689 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,690 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 13:24:46,691 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,691 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,692 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 13:24:46,692 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,692 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,694 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 13:24:46,694 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,694 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,695 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 13:24:46,695 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,696 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,697 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 13:24:46,698 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:24:46,698 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,700 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 13:24:46,700 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,700 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,701 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 13:24:46,702 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,702 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,703 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 13:24:46,703 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,703 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,705 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 13:24:46,705 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,705 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:46,707 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 13:24:46,707 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:24:46,707 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:24:47,847 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 5.778 seconds (JVM running for 7.175)
+2023-01-31 13:24:56,454 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-4] UserName: admin2
+2023-01-31 13:24:56,698 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-4] ROLE_ADMIN
+2023-01-31 13:24:56,715 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 13:25:00,584 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 13:25:17,179 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-9] role:ROLE_ADMIN
+2023-01-31 13:25:18,656 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 13:25:19,490 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 13:25:22,226 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 13:25:25,967 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 13:25:29,238 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 13:25:34,171 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 13:58:03,275 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 14356 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 13:58:03,281 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 13:58:03,282 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 13:58:08,750 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 13:58:08,750 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,751 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,753 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 13:58:08,753 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,754 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,755 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 13:58:08,756 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,756 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,759 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 13:58:08,759 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,759 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,761 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 13:58:08,761 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,762 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,764 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 13:58:08,764 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,765 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,767 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 13:58:08,768 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,768 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,769 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 13:58:08,769 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,770 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,771 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 13:58:08,771 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,772 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,773 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 13:58:08,774 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,774 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,777 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 13:58:08,777 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,777 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,779 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 13:58:08,780 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,781 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,784 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 13:58:08,784 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,785 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,787 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 13:58:08,787 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,787 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,789 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 13:58:08,789 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,790 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,793 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 13:58:08,793 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 13:58:08,793 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,795 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 13:58:08,795 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,795 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,797 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 13:58:08,797 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,798 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,800 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 13:58:08,801 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,801 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,802 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 13:58:08,803 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,803 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:08,804 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 13:58:08,804 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 13:58:08,804 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 13:58:09,663 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 7.195 seconds (JVM running for 8.734)
+2023-01-31 14:01:01,637 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 15052 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:01:01,641 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:01:01,643 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:01:05,926 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:01:05,927 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,927 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,929 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:01:05,929 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,929 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,931 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:01:05,931 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,932 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,934 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:01:05,934 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,935 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,937 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:01:05,937 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,937 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,939 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:01:05,939 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,939 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,941 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:01:05,941 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,941 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,943 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:01:05,943 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,943 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,945 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:01:05,945 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,946 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,947 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:01:05,948 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,948 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,950 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:01:05,950 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,950 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,952 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:01:05,952 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,952 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,953 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:01:05,954 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,954 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,955 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:01:05,955 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,955 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,957 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:01:05,957 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,957 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,959 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:01:05,959 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:01:05,959 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,961 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:01:05,961 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,961 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,962 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:01:05,963 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,963 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,964 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:01:05,965 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,965 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,967 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:01:05,967 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,968 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:05,969 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:01:05,969 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:01:05,969 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:01:06,676 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 5.645 seconds (JVM running for 6.843)
+2023-01-31 14:02:07,114 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 2244 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:02:07,118 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:02:07,119 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:02:11,074 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:02:11,074 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,075 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,076 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:02:11,077 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,077 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,078 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:02:11,079 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,079 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,081 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:02:11,081 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,081 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,084 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:02:11,084 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,084 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,086 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:02:11,087 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,087 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,089 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:02:11,089 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,089 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,090 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:02:11,091 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,091 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,093 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:02:11,093 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,093 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,095 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:02:11,095 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,095 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,097 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:02:11,097 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,097 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,099 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:02:11,099 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,099 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,101 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:02:11,101 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,101 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,103 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:02:11,103 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,104 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,106 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:02:11,106 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,106 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,108 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:02:11,108 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:11,108 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,110 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:02:11,110 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,110 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,111 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:02:11,111 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,112 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,113 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:02:11,113 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,113 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,115 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:02:11,115 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,115 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,116 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:02:11,117 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:11,117 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:11,778 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 5.222 seconds (JVM running for 6.273)
+2023-01-31 14:02:44,613 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 796 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:02:44,617 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:02:44,618 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:02:48,706 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:02:48,706 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,706 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,708 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:02:48,708 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,708 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,710 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:02:48,710 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,710 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,712 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:02:48,712 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,712 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,714 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:02:48,715 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,715 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,716 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:02:48,717 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,717 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,719 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:02:48,720 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,720 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,721 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:02:48,722 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,722 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,724 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:02:48,724 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,724 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,725 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:02:48,726 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,726 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,727 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:02:48,728 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,728 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,729 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:02:48,730 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,730 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,731 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:02:48,731 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,732 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,733 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:02:48,733 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,734 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,736 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:02:48,736 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,736 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,739 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:02:48,739 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:02:48,739 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,740 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:02:48,741 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,741 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,742 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:02:48,742 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,742 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,744 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:02:48,744 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,744 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,746 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:02:48,746 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,746 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:48,747 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:02:48,747 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:02:48,748 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:02:49,408 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 5.344 seconds (JVM running for 6.466)
+2023-01-31 14:03:49,504 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 13832 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:03:49,508 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:03:49,509 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:03:53,465 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:03:53,466 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,466 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,468 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:03:53,468 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,468 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,469 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:03:53,470 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,470 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,472 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:03:53,472 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,472 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,474 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:03:53,474 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,474 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,475 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:03:53,476 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,476 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,477 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:03:53,478 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,478 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,479 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:03:53,479 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,480 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,481 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:03:53,481 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,481 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,482 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:03:53,483 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,483 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,484 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:03:53,485 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,485 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,487 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:03:53,487 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,487 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,488 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:03:53,489 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,489 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,491 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:03:53,491 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,491 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,493 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:03:53,493 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,493 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,495 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:03:53,496 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:03:53,496 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,497 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:03:53,498 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,498 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,499 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:03:53,499 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,499 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,501 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:03:53,502 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,502 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,504 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:03:53,504 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,504 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:53,505 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:03:53,506 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:03:53,506 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:03:54,173 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 5.297 seconds (JVM running for 6.496)
+2023-01-31 14:15:58,455 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-4] UserName: admin2
+2023-01-31 14:15:58,936 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-4] ROLE_ADMIN
+2023-01-31 14:15:58,969 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:16:09,818 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:16:11,774 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:16:21,275 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:17:01,033 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-3] role:ROLE_ADMIN
+2023-01-31 14:17:17,619 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:17:30,636 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:17:36,681 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 14:30:02,318 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:30:09,381 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-3] UserName: user1
+2023-01-31 14:30:09,391 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-3] ROLE_USER
+2023-01-31 14:30:09,400 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_USER
+2023-01-31 14:31:09,255 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-3] role:ROLE_USER
+2023-01-31 14:31:11,457 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_USER
+2023-01-31 14:31:25,459 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_USER
+2023-01-31 14:31:43,337 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-9] UserName: admin2
+2023-01-31 14:31:43,344 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-9] ROLE_ADMIN
+2023-01-31 14:31:43,354 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 14:31:51,919 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:31:53,378 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:32:41,583 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:33:44,719 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:33:54,919 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:33:56,436 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 14:33:58,374 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-5] role:ROLE_ADMIN
+2023-01-31 14:34:04,067 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:34:07,642 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:34:19,885 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:34:24,675 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:34:25,823 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-9] role:ROLE_ADMIN
+2023-01-31 14:34:41,329 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-8] UserName: user1
+2023-01-31 14:34:41,336 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-8] ROLE_USER
+2023-01-31 14:34:41,343 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-3] role:ROLE_USER
+2023-01-31 14:34:52,655 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_USER
+2023-01-31 14:35:10,356 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-10] UserName: admin2
+2023-01-31 14:35:10,362 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-10] ROLE_ADMIN
+2023-01-31 14:35:10,371 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 14:35:14,188 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:35:15,883 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 14:35:30,286 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-1] UserName: user1
+2023-01-31 14:35:30,292 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-1] ROLE_USER
+2023-01-31 14:35:30,298 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_USER
+2023-01-31 14:35:42,745 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_USER
+2023-01-31 14:36:32,435 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-9] UserName: admin2
+2023-01-31 14:36:32,441 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-9] ROLE_ADMIN
+2023-01-31 14:36:32,449 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 14:36:35,742 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:36:37,134 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:36:45,746 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:36:50,745 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:36:55,506 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:36:57,337 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 14:37:12,433 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 14:37:27,204 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-6] UserName: vnpay1
+2023-01-31 14:37:33,804 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-5] UserName: admin2
+2023-01-31 14:37:33,843 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-5] ROLE_ADMIN
+2023-01-31 14:37:33,854 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:37:37,000 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-9] role:ROLE_ADMIN
+2023-01-31 14:37:48,681 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-3] UserName: vnpay1
+2023-01-31 14:37:48,688 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-3] ROLE_ADMIN
+2023-01-31 14:37:48,697 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:37:52,331 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:37:54,444 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:38:01,961 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:38:04,245 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:38:11,310 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:38:14,085 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:38:23,215 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:38:31,936 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:38:34,399 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 14:38:36,735 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 14:38:38,408 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-9] role:ROLE_ADMIN
+2023-01-31 14:38:40,440 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 14:38:42,188 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:39:16,404 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 1776 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:39:16,408 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:39:16,409 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:39:21,140 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:39:21,141 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,141 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,143 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:39:21,144 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,145 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,146 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:39:21,146 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,147 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,148 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:39:21,149 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,149 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,151 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:39:21,151 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,152 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,154 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:39:21,154 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,154 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,156 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:39:21,156 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,156 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,158 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:39:21,158 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,158 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,160 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:39:21,160 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,160 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,162 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:39:21,162 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:39:21,162 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,164 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:39:21,164 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,164 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,165 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:39:21,165 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,165 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,166 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:39:21,166 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,167 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,168 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:39:21,168 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,168 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,170 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:39:21,170 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,170 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,172 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:39:21,173 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:39:21,173 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,174 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:39:21,175 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,175 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,176 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:39:21,176 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,177 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,178 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:39:21,178 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,178 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,179 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:39:21,179 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,179 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,181 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:39:21,181 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:39:21,181 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:39:21,943 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 6.198 seconds (JVM running for 7.206)
+2023-01-31 14:39:31,925 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-5] UserName: admin2
+2023-01-31 14:39:32,158 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-5] ROLE_ADMIN
+2023-01-31 14:39:32,174 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 14:39:34,371 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:40:03,497 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-7] role:ROLE_ADMIN
+2023-01-31 14:44:24,130 INFO [AuthService.java,handleRegister,71] [http-nio-9090-exec-7] User registered successfully!
+2023-01-31 14:45:37,214 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 14:50:00,069 INFO [AuthService.java,handleRegister,71] [http-nio-9090-exec-10] User registered successfully!
+2023-01-31 14:50:22,290 INFO [AuthService.java,handleRegister,71] [http-nio-9090-exec-3] User registered successfully!
+2023-01-31 14:51:38,375 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 12828 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:51:38,381 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:51:38,382 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:51:43,166 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:51:43,167 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,167 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,169 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:51:43,170 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,170 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,172 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:51:43,172 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,172 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,175 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:51:43,175 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,176 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,178 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:51:43,178 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,179 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,180 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:51:43,181 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,181 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,183 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:51:43,184 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,184 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,186 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:51:43,187 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,187 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,189 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:51:43,189 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,190 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,192 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:51:43,192 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:51:43,192 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,194 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:51:43,194 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,194 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,196 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:51:43,196 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,197 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,198 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:51:43,198 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,198 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,200 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:51:43,200 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,201 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,202 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:51:43,203 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,203 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,205 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:51:43,205 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:51:43,205 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,207 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:51:43,207 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,208 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,209 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:51:43,209 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,209 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,210 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:51:43,210 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,210 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,212 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:51:43,212 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,212 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:43,214 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:51:43,214 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:51:43,214 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:51:44,050 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 6.329 seconds (JVM running for 7.438)
+2023-01-31 14:53:03,503 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-10] UserName: admin2
+2023-01-31 14:53:04,004 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-10] ROLE_ADMIN
+2023-01-31 14:53:04,033 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-2] role:ROLE_ADMIN
+2023-01-31 14:54:14,547 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 6900 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:54:14,554 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:54:14,555 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:54:21,167 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:54:21,168 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,168 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,172 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:54:21,173 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,174 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,178 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:54:21,179 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,180 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,185 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:54:21,186 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,186 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,191 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:54:21,192 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,193 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,197 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:54:21,197 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,198 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,202 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:54:21,203 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,204 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,209 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:54:21,209 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,210 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,215 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:54:21,215 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,216 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,220 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:54:21,221 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:54:21,222 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,226 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:54:21,227 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,228 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,230 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:54:21,231 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,232 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,234 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:54:21,235 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,235 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,239 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:54:21,239 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,240 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,242 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:54:21,243 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,243 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,248 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:54:21,248 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:54:21,249 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,252 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:54:21,253 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,254 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,257 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:54:21,258 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,258 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,262 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:54:21,263 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,263 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,266 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:54:21,267 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,268 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:21,271 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:54:21,272 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:54:21,273 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:54:22,733 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 9.081 seconds (JVM running for 10.35)
+2023-01-31 14:54:39,036 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-5] UserName: admin2
+2023-01-31 14:54:39,541 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-5] ROLE_ADMIN
+2023-01-31 14:54:39,571 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 14:55:34,440 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 11588 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 14:55:34,445 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 14:55:34,446 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 14:55:38,915 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 14:55:38,915 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,916 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,919 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 14:55:38,919 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,919 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,921 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:55:38,922 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,922 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,925 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 14:55:38,925 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,925 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,928 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 14:55:38,928 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,928 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,931 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 14:55:38,931 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,931 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,933 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 14:55:38,934 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,934 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,936 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 14:55:38,937 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,937 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,939 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 14:55:38,939 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,940 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,942 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 14:55:38,942 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 14:55:38,942 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,944 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 14:55:38,944 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,944 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,945 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:55:38,946 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,946 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,947 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:55:38,947 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,947 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,949 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 14:55:38,949 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,950 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,951 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 14:55:38,951 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,951 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,953 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 14:55:38,954 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 14:55:38,954 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,955 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 14:55:38,955 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,956 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,957 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:55:38,957 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,958 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,959 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 14:55:38,959 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,959 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,961 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 14:55:38,961 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,961 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:38,963 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 14:55:38,963 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 14:55:38,963 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 14:55:39,701 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 6.021 seconds (JVM running for 7.0)
+2023-01-31 15:16:57,129 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 13216 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 15:16:57,134 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 15:16:57,135 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 15:17:02,215 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 15:17:02,215 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,215 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,217 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 15:17:02,217 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,218 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,219 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 15:17:02,219 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,220 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,222 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 15:17:02,222 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,223 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,225 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 15:17:02,225 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,225 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,227 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 15:17:02,227 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,228 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,229 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 15:17:02,230 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,230 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,231 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 15:17:02,232 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,233 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,234 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 15:17:02,234 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,235 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,237 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 15:17:02,237 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:17:02,237 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,239 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 15:17:02,239 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,239 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,241 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 15:17:02,241 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,241 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,242 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 15:17:02,243 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,243 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,244 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 15:17:02,245 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,245 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,247 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 15:17:02,247 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,247 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,250 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 15:17:02,250 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:17:02,250 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,252 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 15:17:02,252 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,252 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,254 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 15:17:02,255 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,255 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,257 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 15:17:02,257 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,257 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,260 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 15:17:02,260 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,260 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:02,263 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 15:17:02,264 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:17:02,264 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:17:03,085 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 6.681 seconds (JVM running for 7.728)
+2023-01-31 15:17:21,118 INFO [CustomAuthProvider.java,authenticate,32] [http-nio-9090-exec-7] UserName: admin2
+2023-01-31 15:17:21,603 INFO [CustomAuthProvider.java,authenticate,44] [http-nio-9090-exec-7] ROLE_ADMIN
+2023-01-31 15:17:21,629 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 15:17:42,517 INFO [AuthService.java,handleRegister,71] [http-nio-9090-exec-2] User registered successfully!
+2023-01-31 15:23:11,563 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 15:25:20,195 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-9] role:ROLE_ADMIN
+2023-01-31 15:25:24,159 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-10] role:ROLE_ADMIN
+2023-01-31 15:25:27,275 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-6] role:ROLE_ADMIN
+2023-01-31 15:28:29,181 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-4] role:ROLE_ADMIN
+2023-01-31 15:28:31,120 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-1] role:ROLE_ADMIN
+2023-01-31 15:28:33,286 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 15:30:13,961 INFO [LayoutService.java,handleLayout,29] [http-nio-9090-exec-8] role:ROLE_ADMIN
+2023-01-31 15:40:40,798 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting SideProject1Application using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 12436 (D:\TAI LIEU HOC TAP\Java\Training\SideProject1\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\SideProject1)
+2023-01-31 15:40:40,803 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-31 15:40:40,804 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 15:40:47,100 INFO [SecurityConfig.java,filterChain,73] [main] /home
+2023-01-31 15:40:47,100 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,100 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,102 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/create
+2023-01-31 15:40:47,103 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,103 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,105 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 15:40:47,105 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,106 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,109 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail
+2023-01-31 15:40:47,109 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,109 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,111 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/detail/
+2023-01-31 15:40:47,111 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,112 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,114 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/update
+2023-01-31 15:40:47,115 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,115 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,117 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/reset-pass
+2023-01-31 15:40:47,117 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,118 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,119 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/lock-account
+2023-01-31 15:40:47,120 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,120 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,122 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/info-update
+2023-01-31 15:40:47,123 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,123 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,125 INFO [SecurityConfig.java,filterChain,73] [main] /system/accounts/unlock-account
+2023-01-31 15:40:47,125 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_USER'
+2023-01-31 15:40:47,125 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,127 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/detail
+2023-01-31 15:40:47,127 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,127 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,129 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 15:40:47,129 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,129 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,130 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 15:40:47,131 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,131 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,133 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/update
+2023-01-31 15:40:47,133 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,133 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,135 INFO [SecurityConfig.java,filterChain,73] [main] /system/role/create
+2023-01-31 15:40:47,135 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,135 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,138 INFO [SecurityConfig.java,filterChain,73] [main] /system/role
+2023-01-31 15:40:47,138 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN'
+2023-01-31 15:40:47,139 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,141 INFO [SecurityConfig.java,filterChain,73] [main] /transaction
+2023-01-31 15:40:47,141 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,141 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,143 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 15:40:47,143 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,143 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,145 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/update
+2023-01-31 15:40:47,145 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,145 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,146 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment/detail/
+2023-01-31 15:40:47,146 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,146 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:47,148 INFO [SecurityConfig.java,filterChain,73] [main] /transaction/payment
+2023-01-31 15:40:47,149 INFO [SecurityConfig.java,filterChain,74] [main] 'ROLE_USER', 'ROLE_ADMIN', 'ROLE_DEMO'
+2023-01-31 15:40:47,149 INFO [SecurityConfig.java,filterChain,75] [main] ==============================================
+2023-01-31 15:40:48,095 INFO [StartupInfoLogger.java,logStarted,61] [main] Started SideProject1Application in 8.113 seconds (JVM running for 9.177)
