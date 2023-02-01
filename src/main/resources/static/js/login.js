@@ -20,11 +20,4 @@ $(document).ready(function() {
 
     })
 
-
-    let arr1 = [0, 1, 2];
-    const arr2 = [3, 4, 5];
-    console.log({...arr1, ...arr2})
-    arr1 = [...arr1, ...arr2];
-    console.log(arr1)
-    console.log({...arr1, ...arr2})
 })

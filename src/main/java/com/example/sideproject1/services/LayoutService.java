@@ -31,6 +31,7 @@ public class LayoutService {
         List<Role> allRoles = roleRepository.findAll();
         Role role = roleRepository.getByRoleDesc(roleDesc);
         List<RoleData> dataResponse = roleService.handleRoleData(role.getRoleName());
+        log.error("XIN CHAO`");
 
         LayoutResponse layoutResponse = new LayoutResponse();
         layoutResponse.setAllRoles(allRoles);
